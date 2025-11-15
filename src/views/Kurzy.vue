@@ -1,6 +1,22 @@
 <template>
   <div class="kurzy">
     <section class="hero">
+      <div class="hero-image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="kurzyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#C7E8DC;stop-opacity:0.6" />
+              <stop offset="100%" style="stop-color:#B4A5D5;stop-opacity:0.5" />
+            </linearGradient>
+          </defs>
+          <rect width="1200" height="600" fill="url(#kurzyGrad)"/>
+          <circle cx="150" cy="450" r="80" fill="#8B7FB8" opacity="0.1"/>
+          <circle cx="1000" cy="150" r="120" fill="#C7E8DC" opacity="0.15"/>
+          <rect x="400" y="100" width="150" height="150" rx="20" fill="#E8D5E8" opacity="0.15" transform="rotate(15 475 175)"/>
+          <rect x="700" y="350" width="120" height="120" rx="15" fill="#E8C5A5" opacity="0.12" transform="rotate(-20 760 410)"/>
+          <path d="M 200,300 L 350,150 L 500,300 L 350,450 Z" fill="#B4A5D5" opacity="0.1"/>
+        </svg>
+      </div>
       <div class="container">
         <h1>Nabídka kurzů</h1>
         <p>Profesionální vzdělávací programy šité na míru vašim potřebám</p>

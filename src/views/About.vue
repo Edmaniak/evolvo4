@@ -1,6 +1,23 @@
 <template>
   <div class="about">
     <section class="hero">
+      <div class="hero-image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#E8D5E8;stop-opacity:0.5" />
+              <stop offset="50%" style="stop-color:#E8C5A5;stop-opacity:0.4" />
+              <stop offset="100%" style="stop-color:#C7E8DC;stop-opacity:0.5" />
+            </linearGradient>
+          </defs>
+          <rect width="1200" height="600" fill="url(#aboutGrad)"/>
+          <ellipse cx="300" cy="200" rx="150" ry="100" fill="#B4A5D5" opacity="0.12"/>
+          <ellipse cx="900" cy="400" rx="180" ry="120" fill="#C7E8DC" opacity="0.15"/>
+          <path d="M 600,100 Q 650,200 600,300 Q 550,400 600,500" stroke="#E8D5E8" stroke-width="4" fill="none" opacity="0.2"/>
+          <circle cx="800" cy="200" r="60" fill="#E8C5A5" opacity="0.15"/>
+          <circle cx="400" cy="450" r="70" fill="#B4A5D5" opacity="0.1"/>
+        </svg>
+      </div>
       <div class="container">
         <h1>O mně</h1>
         <p>Jsem Daša – průvodkyně na cestě k osobnímu růstu</p>
