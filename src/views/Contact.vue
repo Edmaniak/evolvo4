@@ -1,6 +1,23 @@
 <template>
   <div class="contact">
     <section class="hero">
+      <div class="hero-image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="contactGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#E8C5A5;stop-opacity:0.5" />
+              <stop offset="50%" style="stop-color:#C7E8DC;stop-opacity:0.5" />
+              <stop offset="100%" style="stop-color:#B4A5D5;stop-opacity:0.5" />
+            </linearGradient>
+          </defs>
+          <rect width="1200" height="600" fill="url(#contactGrad)"/>
+          <circle cx="250" cy="250" r="100" fill="#E8D5E8" opacity="0.15"/>
+          <circle cx="950" cy="350" r="130" fill="#C7E8DC" opacity="0.15"/>
+          <rect x="500" y="150" width="200" height="200" rx="100" fill="#B4A5D5" opacity="0.1"/>
+          <path d="M 150,400 Q 300,350 450,400 Q 600,450 750,400" stroke="#E8C5A5" stroke-width="3" fill="none" opacity="0.2"/>
+          <circle cx="600" cy="100" r="50" fill="#E8D5E8" opacity="0.12"/>
+        </svg>
+      </div>
       <div class="container">
         <h1>Spojme se</h1>
         <p>Začněme společnou cestu k vašemu růstu</p>

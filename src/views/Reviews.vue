@@ -1,6 +1,24 @@
 <template>
   <div class="reviews">
     <section class="hero">
+      <div class="hero-image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="reviewsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#C7E8DC;stop-opacity:0.6" />
+              <stop offset="50%" style="stop-color:#E8D5E8;stop-opacity:0.5" />
+              <stop offset="100%" style="stop-color:#E8C5A5;stop-opacity:0.4" />
+            </linearGradient>
+          </defs>
+          <rect width="1200" height="600" fill="url(#reviewsGrad)"/>
+          <polygon points="200,150 250,250 150,250" fill="#B4A5D5" opacity="0.12"/>
+          <polygon points="1000,400 1100,500 900,500" fill="#C7E8DC" opacity="0.15"/>
+          <polygon points="600,100 650,180 550,180" fill="#E8C5A5" opacity="0.1"/>
+          <circle cx="350" cy="400" r="90" fill="#E8D5E8" opacity="0.15"/>
+          <circle cx="850" cy="250" r="75" fill="#B4A5D5" opacity="0.12"/>
+          <path d="M 100,500 Q 300,450 500,500 T 900,500" stroke="#C7E8DC" stroke-width="3" fill="none" opacity="0.2"/>
+        </svg>
+      </div>
       <div class="container">
         <h1>Recenze</h1>
         <p>Co říkají účastníci mých kurzů</p>
