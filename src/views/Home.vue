@@ -2,53 +2,53 @@
   <div class="home">
     <section class="hero">
       <div class="container">
-        <h1>Vzdělávání, které posouvá vpřed</h1>
-        <p>Profesionální kurzy a školení pro úředníky, sociální pracovníky a soukromé firmy. Rozvíjejte své dovednosti s Evolvo.cz</p>
-        <router-link to="/kontakt" class="cta-button">Mám zájem o kurz</router-link>
+        <h1>Cesta k osobnímu růstu a transformaci</h1>
+        <p>Doprovázím vás na cestě k hlouběkému porozumění sobě samým. Profesionální vzdělávání s osobním přístupem pro úředníky, sociální pracovníky a týmy.</p>
+        <router-link to="/kontakt" class="cta-button">Začít společnou cestu</router-link>
       </div>
     </section>
 
     <section class="container">
-      <h2>Co nabízím</h2>
+      <h2>S kým pracuji</h2>
       <div class="cards">
         <div class="card">
-          <div class="card-icon">📚</div>
+          <div class="card-icon">🌸</div>
           <h3>Pro úředníky</h3>
-          <p>Specializované kurzy zaměřené na efektivní komunikaci, právní předpisy a moderní administrativu pro veřejný sektor.</p>
+          <p>Podpořím vás v nalezení rovnováhy mezi profesionalitou a lidskostí. Společně objevíme sílu autentické komunikace a empatického přístupu k lidem.</p>
         </div>
 
         <div class="card">
-          <div class="card-icon">🤝</div>
+          <div class="card-icon">🌿</div>
           <h3>Pro sociální pracovníky</h3>
-          <p>Praktická školení v oblasti práce s klienty, krizové intervence a profesního rozvoje v sociálních službách.</p>
+          <p>Nabízím bezpečný prostor pro regeneraci, reflexi a posílení vašich vnitřních zdrojů. Naučíme se pečovat o sebe, abychom mohli pečovat o druhé.</p>
         </div>
 
         <div class="card">
-          <div class="card-icon">💼</div>
-          <h3>Pro soukromé firmy</h3>
-          <p>Firemní vzdělávání zaměřené na rozvoj měkkých dovedností, teambuilding a efektivní komunikaci v týmu.</p>
+          <div class="card-icon">🦋</div>
+          <h3>Pro týmy a firmy</h3>
+          <p>Vytvořím prostor pro autentickou komunikaci, vzájemné pochopení a harmonii v týmu. Růst společně znamená růst každého jednotlivce.</p>
         </div>
       </div>
     </section>
 
     <section class="container">
-      <div style="background: linear-gradient(135deg, #E8F4F8 0%, #FFFFFF 100%); padding: 60px 40px; border-radius: 16px; text-align: center;">
-        <h2>Proč zvolit Evolvo.cz?</h2>
+      <div style="background: linear-gradient(135deg, rgba(232, 213, 232, 0.4) 0%, rgba(199, 232, 220, 0.4) 100%); padding: 80px 50px; border-radius: 40px; text-align: center;">
+        <h2>Moje hodnoty</h2>
         <div class="cards">
           <div class="card">
-            <div class="card-icon">✓</div>
-            <h3>Praktický přístup</h3>
-            <p>Kurzy postavené na reálných situacích a praktických cvičeních</p>
+            <div class="card-icon">💫</div>
+            <h3>Autentičnost</h3>
+            <p>Věřím v sílu být sám sebou a vytvářet prostředí, kde se každý může otevřít</p>
           </div>
           <div class="card">
-            <div class="card-icon">⭐</div>
-            <h3>Zkušená lektorka</h3>
-            <p>Profesionální přístup s letitými zkušenostmi v oboru</p>
+            <div class="card-icon">🌺</div>
+            <h3>Soucit a empatie</h3>
+            <p>Přistupuji k vám s porozuměním, respektem a srdečností</p>
           </div>
           <div class="card">
-            <div class="card-icon">🎯</div>
-            <h3>Individuální přístup</h3>
-            <p>Kurzy přizpůsobené specifickým potřebám vašeho týmu</p>
+            <div class="card-icon">🌱</div>
+            <h3>Jemná transformace</h3>
+            <p>Změna nemusí být bolestivá - může být přirozená jako růst květiny</p>
           </div>
         </div>
       </div>

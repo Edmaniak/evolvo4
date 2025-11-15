@@ -2,29 +2,29 @@
   <div class="contact">
     <section class="hero">
       <div class="container">
-        <h1>Kontakt</h1>
-        <p>Mám zájem o kurz nebo mám dotaz</p>
+        <h1>Spojme se</h1>
+        <p>Začněme společnou cestu k vašemu růstu</p>
       </div>
     </section>
 
     <section class="container">
-      <div style="max-width: 800px; margin: 0 auto;">
+      <div style="max-width: 900px; margin: 0 auto;">
         <div class="card">
-          <h2>Kontaktní formulář</h2>
-          <p style="margin-bottom: 30px; color: var(--text-light);">
-            Vyplňte prosím formulář níže a já se vám ozvu do 24 hodin. 
-            Společně najdeme kurz na míru vašim potřebám.
+          <h2>Napište mi</h2>
+          <p style="margin-bottom: 40px; color: var(--text-light); font-size: 1.1em; line-height: 1.9;">
+            Ráda s vámi promluvím o tom, jak společně můžeme podpořit váš osobní růst nebo rozvoj vašeho týmu. 
+            Vyplňte formulář níže a ozvěme se vám do 24 hodin.
           </p>
 
           <form @submit.prevent="handleSubmit" v-if="!submitted">
             <div class="form-group">
-              <label for="name">Jméno a příjmení *</label>
+              <label for="name">Vaše jméno *</label>
               <input 
                 type="text" 
                 id="name" 
                 v-model="form.name" 
                 required
-                placeholder="Vaše celé jméno"
+                placeholder="Jak vám mám říkat?"
               />
             </div>
 
@@ -55,39 +55,39 @@
                 type="text" 
                 id="organization" 
                 v-model="form.organization"
-                placeholder="Název vaší organizace"
+                placeholder="Pokud píšete za organizaci"
               />
             </div>
 
             <div class="form-group">
-              <label for="courseType">Typ kurzu *</label>
+              <label for="courseType">Co vás zajímá? *</label>
               <select id="courseType" v-model="form.courseType" required>
-                <option value="">-- Vyberte typ kurzu --</option>
+                <option value="">-- Vyberte, prosím --</option>
                 <option value="urednici">Kurzy pro úředníky</option>
                 <option value="socialni">Kurzy pro sociální pracovníky</option>
-                <option value="firemni">Kurzy pro firmy</option>
-                <option value="jiny">Jiný / Individuální požadavek</option>
+                <option value="firemni">Kurzy pro týmy a firmy</option>
+                <option value="jiny">Individuální setkání</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label for="participants">Předpokládaný počet účastníků</label>
+              <label for="participants">Kolik vás bude?</label>
               <input 
                 type="number" 
                 id="participants" 
                 v-model="form.participants"
                 min="1"
-                placeholder="např. 10"
+                placeholder="Orientačně"
               />
             </div>
 
             <div class="form-group">
-              <label for="message">Zpráva / Dotaz *</label>
+              <label for="message">Vaše zpráva *</label>
               <textarea 
                 id="message" 
                 v-model="form.message" 
                 required
-                placeholder="Popište prosím, co vás zajímá, jaké máte požadavky na kurz, nebo se zeptejte na cokoliv..."
+                placeholder="Co vás vede k tomu, napsat mi? Co byste rádi změnili nebo objevili?"
               ></textarea>
             </div>
 
@@ -97,36 +97,36 @@
                   type="checkbox" 
                   v-model="form.gdpr" 
                   required
-                  style="width: auto; margin-right: 10px;"
+                  style="width: auto; margin-right: 12px;"
                 />
                 <span>Souhlasím se zpracováním osobních údajů *</span>
               </label>
             </div>
 
-            <button type="submit">Odeslat poptávku</button>
+            <button type="submit">Odeslat zprávu</button>
           </form>
 
-          <div v-if="submitted" style="text-align: center; padding: 40px;">
-            <div style="font-size: 60px; color: var(--accent-color); margin-bottom: 20px;">✓</div>
-            <h3 style="color: var(--accent-color); margin-bottom: 15px;">Děkuji za vaši zprávu!</h3>
-            <p style="font-size: 1.1em; margin-bottom: 30px;">
-              Vaše poptávka byla úspěšně odeslána. Ozvu se vám co nejdříve, obvykle do 24 hodin.
+          <div v-if="submitted" style="text-align: center; padding: 60px 40px;">
+            <div style="font-size: 80px; margin-bottom: 30px;">🌸</div>
+            <h3 style="color: var(--primary-dark); margin-bottom: 20px; font-size: 2em;">Děkuji za vaši zprávu</h3>
+            <p style="font-size: 1.2em; margin-bottom: 40px; line-height: 1.9; color: var(--text-light);">
+              Vaše slova ke mně dorazila. Brzy se vám ozvu a společně najdeme cestu, která bude pro vás ta pravá.
             </p>
-            <button @click="resetForm" style="background-color: var(--text-light);">
-              Odeslat další zprávu
+            <button @click="resetForm" style="background: linear-gradient(135deg, var(--tertiary-color), var(--accent-color));">
+              Napsat další zprávu
             </button>
           </div>
         </div>
 
         <div class="cards mt-40">
           <div class="card">
-            <div class="card-icon">📧</div>
+            <div class="card-icon">💌</div>
             <h3>E-mail</h3>
             <p><a href="mailto:info@evolvo.cz" style="color: var(--primary-color); text-decoration: none;">info@evolvo.cz</a></p>
           </div>
 
           <div class="card">
-            <div class="card-icon">📱</div>
+            <div class="card-icon">☎️</div>
             <h3>Telefon</h3>
             <p><a href="tel:+420777888999" style="color: var(--primary-color); text-decoration: none;">+420 777 888 999</a></p>
           </div>
@@ -134,7 +134,7 @@
           <div class="card">
             <div class="card-icon">🌐</div>
             <h3>Web</h3>
-            <p style="color: var(--primary-dark); font-weight: 600;">www.evolvo.cz</p>
+            <p style="color: var(--primary-dark); font-weight: 400;">www.evolvo.cz</p>
           </div>
         </div>
       </div>
@@ -162,13 +162,8 @@ export default {
   },
   methods: {
     handleSubmit() {
-      // In a real application, this would send data to a backend
       console.log('Form submitted:', this.form)
-      
-      // Simulate form submission
       this.submitted = true
-      
-      // Scroll to top to show success message
       window.scrollTo({ top: 0, behavior: 'smooth' })
     },
     resetForm() {
